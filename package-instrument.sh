@@ -1,6 +1,6 @@
 #!/bin/bash
 
-forms=( ae_coding advere_events cm_coding conmeds )
+forms=( ae_coding adverse_events cm_coding conmeds )
 
 echo "Packaging forms into REDCap instruments"
 for form in "${forms[@]}"
