@@ -5,7 +5,7 @@ ae_aeterm,adverse_events,,text,"Adverse Event",BIOPORTAL:MEDDRA,"Enter MEDDRA Lo
 ae_aecontrt,adverse_events,,radio,"ConMeds given to treat this Adverse Event?","N, NO | Y, YES","(Please update the ConMeds page as applicable)",,,,,"[ae_aeoccur] = 'Y'",y,,,,,
 ae_suppae_aexacerb,adverse_events,,radio,"Exacerbation of previous condition?","N, NO | Y, YES",,,,,,"[ae_aeoccur] = 'Y'",y,,,,,
 ae_aeser,adverse_events,,radio,"SAE (Serious Adverse Event)?","N, NO | Y, YES",,,,,,"[ae_aeoccur] = 'Y' ",y,,,,,
-ae_aesdth,adverse_events,"Outcomes attributed to SAE",radio,Death,"N, NO | Y, YES",,,,,,"[ae_aeser] = 'Y'",y,,,,,
+ae_aesdth,adverse_events,"Outcomes attributed to SAE",radio,Death,"N, NO | Y, YES",,,,,,"[ae_aeser] = 'Y'",y,,,,,"{'field_description':{'ontology':'SNOMEDCT','revision':'2015-03-19 00:00:00.000000000','code':'C1705232','concept':'Death Related to Adverse Event'}}"
 ae_aeslife,adverse_events,,radio,Life-threatening,"N, NO | Y, YES",,,,,,"[ae_aeser] = 'Y'",y,,,,,
 ae_aeshosp,adverse_events,,radio,"Hospitalization - initial or prolonged","N, NO | Y, YES",,,,,,"[ae_aeser] = 'Y'",y,,,,,
 ae_aesdisab,adverse_events,,radio,"Disability or Permanent Damage","N, NO | Y, YES",,,,,,"[ae_aeser] = 'Y'",y,,,,,
