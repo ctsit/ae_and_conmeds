@@ -11,6 +11,6 @@ ae_aeshosp,adverse_events,,radio,"Hospitalization - initial or prolonged","N, NO
 ae_aesdisab,adverse_events,,radio,"Disability or Permanent Damage","N, NO | Y, YES",,,,,,"[ae_aeser] = 'Y'",y,,,,,
 ae_aescong,adverse_events,,radio,"Congenital Anomaly or Birth Defect","N, NO | Y, YES",,,,,,"[ae_aeser] = 'Y'",y,,,,,
 ae_aesmie,adverse_events,,radio,"Other Serious (Important Medical Events)","N, NO | Y, YES",,,,,,"[ae_aeser] = 'Y'",y,,,,,
-ae_suppae_aesosp,adverse_events,,text,"Other Serious (Important Medical Events): Specify",,,,,,,"[ae_aesmie] = 'Y'",y,,,,,
+ae_suppae_aesosp,adverse_events,,text,"Other Serious (Important Medical Events): Specify",BIOPORTAL:MEDDRA,"Enter MEDDRA Low Level Term",,,,,"[ae_aesmie] = 'Y'",y,,,,,
 ae_aeout,adverse_events,Outcome,radio,"Outcome of Adverse Event","FATAL, Fatal | NOT_RECOVERED_NOT_RESOLVED, Not recovered/not resolved | RECOVERED_RESOLVED, Recovered/resolved | RECOVERED_RESOLVED_WITH_SEQUELAE, Recovered/resolved with sequelae | RECOVERING_RESOLVING, Recovering/resolving | UNKNOWN, Unknown",,,,,,"[ae_aeoccur] = 'Y' AND [ae_aeser] = 'Y'",y,,,,,
 ae_aeendtc,adverse_events,,text,"Date of Resolution or Death",,"YYYY-MM-DD ",date_ymd,,,,"[ae_aeout] = 'RECOVERED_RESOLVED' OR [ae_aeout] = 'RECOVERED_RESOLVED_WITH_SEQUELAE' OR [ae_aeout] = 'FATAL'",y,,,,,
