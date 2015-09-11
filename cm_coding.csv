@@ -7,8 +7,3 @@ cm_suppcm_atc2name,cm_coding,,text,"Level 2 ATC name for ConMed Medication: [cm_
 cm_suppcm_indcmodf,cm_coding,,text,"Modified reported term for ConMed Indication: [cm_cmindc]/[cm_oth_cmindc]",BIOPORTAL:MEDDRA,"Enter MEDDRA Low Level Term",,,,,,,,,,,
 cm_suppcm_indcod,cm_coding,,text,"Dictionary derived term for ConMed Indication: [cm_cmindc]/[cm_oth_cmindc]",BIOPORTAL:MEDDRA,"Enter MEDDRA Preferred Term",,,,,,,,,,,
 cm_suppcm_indcsys,cm_coding,,text,"Body system or organ class for ConMed Indication: [cm_cmindc]/[cm_oth_cmindc]",BIOPORTAL:MEDDRA,"Enter MEDDRA System Organ Class",,,,,,,,,,,
-xfsn_cmdecod,cm_coding,Transfusions,text,"Dictionary derived term for transfused blood product: [xfsn_cmtrt]",BIOPORTAL:RXNORM,"Enter RXNORM description or code",,,,,,,,,,,
-xfsn_suppcm_atcname,cm_coding,,text,"Level 1 ATC name for transfused blood product: [xfsn_cmtrt]",BIOPORTAL:ATC,"Enter Level 1 ATC name",,,,,,,,,,,
-xfsn_suppcm_atc2name,cm_coding,,text,"Level 2 ATC name for transfused blood product: [xfsn_cmtrt]",BIOPORTAL:ATC,"Enter Level 2 ATC name",,,,,,,,,,,
-xfsn_suppcm_indcod,cm_coding,,text,"Dictionary derived term for Transfusion indication: [xfsn_cmindc]",BIOPORTAL:MEDDRA,"Enter MEDDRA Low Level Term",,,,,,,,,,,
-xfsn_suppcm_indcsys,cm_coding,,text,"Body system or organ class for Transfusion indication: [xfsn_cmindc]",BIOPORTAL:MEDDRA,"Enter MEDDRA System Organ Class",,,,,,,,,,,

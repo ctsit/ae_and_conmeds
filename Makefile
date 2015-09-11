@@ -17,4 +17,4 @@ build:
 	bash package-instrument.sh
 
 clean:
-	rm instrument.csv
+	rm instrument.csv *.zip
