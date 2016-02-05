@@ -2,7 +2,7 @@
 
 ## Requirements
 
-The export methods used here require the redcap_cli python module.  To install it use standard python methods
+The export methods used here require the redcap_cli python module.  To install it use standard python methods for installing software.
 
     pip install redcap_cli
 
@@ -12,7 +12,7 @@ To export these dictionaries from a project, use the redcap_metadata command to 
 
     redcap_metadata --token [your_token] --url https://yourhost.domain.org/redcap/api/ > all.csv
 
-If these dictionaries are mixed with other forms you want to exclude, these command can extract them nicely with the script `export-all.sh`
+If these dictionaries are mixed with other forms you want to exclude, you can extract the AE and ConMeds forms easily with the script `export-all.sh`
 
 
 ## Contributions

@@ -6,7 +6,7 @@ TODO: Add a field description to the field annotation to describe the field in a
 
 ## Requirements
 
-These forms require features first release in REDCap 6.7.0.  The forms were developed using REDCap 6.8.1.  Each of the forms references ontologies served by http://data.bioontology.org  Access to that service requires an API key from http://bioportal.bioontology.org/  No special REDCap extensions are required.
+These forms require the biontology features first released in REDCap 6.7.0.  The forms were developed using REDCap 6.8.1.  Each of the forms references ontologies served by http://data.bioontology.org  Access to that service requires an API key from http://bioportal.bioontology.org/  No special REDCap extensions are required.
 
 ## Installation
 
