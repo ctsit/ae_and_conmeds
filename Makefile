@@ -17,4 +17,7 @@ build:
 	bash package-instrument.sh
 
 clean:
-	rm instrument.csv *.zip
+	@echo Removing instrument.csv, all.csv, *.zip
+	@test ! -f instrument.csv || rm instrument.csv
+	@test ! -f all.csv || rm all.csv
+	@test ! -f *.zip || rm *.zip
