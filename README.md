@@ -25,8 +25,10 @@ REDCap extensions are required.
 
 ## Installation
 
-These forms are distributed as REDCap instruments. Each zip file has to be
-imported separately to get the full functionality of the forms.
+These forms are distributed as REDCap instruments. Each form is packaged in
+its own zip file and has to be imported separately to get the full
+functionality of the forms.  To download the latest instruments see
+https://github.com/ctsit/ae_and_conmeds/releases/latest
 
 ## Contributors
 
