@@ -15,6 +15,10 @@ export:
 
 build:
 	bash package-instrument.sh
+	@echo "Please attach revised packages to each release at https://github.com/ctsit/ae_and_conmeds/releases"
 
 clean:
-	rm instrument.csv *.zip
+	@echo Removing instrument.csv, all.csv, *.zip
+	@test ! -f instrument.csv || rm instrument.csv
+	@test ! -f all.csv || rm all.csv
+	@test ! -f *.zip || rm *.zip
