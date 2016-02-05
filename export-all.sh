@@ -1,6 +1,6 @@
 #!/bin/bash
 
-forms=( ae_coding adverse_events cm_coding conmeds )
+forms=( adverse_events medications )
 
 if [ -z "$URL" ] ; then
     echo "The variable URL must be defined.  Please use the command 'export URL=[your_url]' to set it."
