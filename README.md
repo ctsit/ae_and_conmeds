@@ -35,11 +35,14 @@ these instructions to upload them into your REDCap instance
 
 * Open your project
 * Open 'Project Setup'
-* ![Project Setup](readme_images/project_setup.png)
+
+![Project Setup](readme_images/project_setup.png)
 * Open 'Online Designer'
-* ![Online Designer](readme_images/online_designer.png)
+
+![Online Designer](readme_images/online_designer.png)
 * Under 'Add new instrument', click on 'Upload'
-* ![Add New Instrument](readme_images/add_new_instrument.png)
+
+![Add New Instrument](readme_images/add_new_instrument.png)
 * Choose one of the zip files containing the new instruments you just downloaded
 * Click 'Upload Instrument ZIP'
 * Repeat for other instruments if desired, otherwise you are done!!
