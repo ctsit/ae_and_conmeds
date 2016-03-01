@@ -30,6 +30,9 @@ its own zip file and has to be imported separately to get the full
 functionality of the forms.  To download the latest instruments see
 https://github.com/ctsit/ae_and_conmeds/releases/latest
 
+After downloading the instruments you require from the above location, follow
+these instructions to upload them into your REDCap instance
+
 * Open your project
 * Open 'Project Setup'
 * Open 'Online Designer'
