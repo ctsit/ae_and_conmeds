@@ -30,6 +30,14 @@ its own zip file and has to be imported separately to get the full
 functionality of the forms.  To download the latest instruments see
 https://github.com/ctsit/ae_and_conmeds/releases/latest
 
+* Open your project
+* Open 'Project Setup'
+* Open 'Online Designer'
+* Under 'Add new instrument', click on 'Upload'
+* Choose one of the zip files containing the new instruments you just downloaded
+* Click 'Upload Instrument ZIP'
+* Repeat for other instruments if desired, otherwise you are done!!
+
 ## Contributors
 
 These forms are based in part on work by Ken Bergquist done for the [HCV
