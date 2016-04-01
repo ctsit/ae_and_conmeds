@@ -55,10 +55,10 @@ these instructions to upload them into your REDCap instance
 These forms are based in part on work by Ken Bergquist done for the [HCV
 Target](http://www.hcvtarget.org/) project.  The forms were adapted for use at
 the University of Florida by Philip Chase <pbc@ufl.edu>, Ruchi V. Desai
-<ruchivdesai@gmail.com> and Christopher P. Barnes <senrabc@gmail.com>.  Many
-thanks to David Nelson, MD, Director of UF's Clinical Translational Science
-Institute and Principal Investigator on the HCV Target project for his support
-of this work.
+<ruchivdesai@gmail.com>, Roy Keyes <keyse@ufl.edu> and Christopher P. Barnes
+<senrabc@gmail.com>.  Many thanks to David Nelson, MD, Director of UF's
+Clinical Translational Science Institute and Principal Investigator on the HCV
+Target project for his support of this work.
 
 ## Contributions
 
