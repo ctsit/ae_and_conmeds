@@ -30,15 +30,35 @@ its own zip file and has to be imported separately to get the full
 functionality of the forms.  To download the latest instruments see
 https://github.com/ctsit/ae_and_conmeds/releases/latest
 
+After downloading the instruments you require from the above location, follow
+these instructions to upload them into your REDCap instance
+
+* Open your project
+* Open 'Project Setup'
+
+![Project Setup](readme_images/project_setup.png)
+
+* Open 'Online Designer'
+
+![Online Designer](readme_images/online_designer.png)
+
+* Under 'Add new instrument', click on 'Upload'
+
+![Add New Instrument](readme_images/add_new_instrument.png)
+
+* Choose one of the zip files containing the new instruments you just downloaded
+* Click 'Upload Instrument ZIP'
+* Repeat for other instruments if desired, otherwise you are done!!
+
 ## Contributors
 
 These forms are based in part on work by Ken Bergquist done for the [HCV
 Target](http://www.hcvtarget.org/) project.  The forms were adapted for use at
 the University of Florida by Philip Chase <pbc@ufl.edu>, Ruchi V. Desai
-<ruchivdesai@gmail.com> and Christopher P. Barnes <senrabc@gmail.com>.  Many
-thanks to David Nelson, MD, Director of UF's Clinical Translational Science
-Institute and Principal Investigator on the HCV Target project for his support
-of this work.
+<ruchivdesai@gmail.com>, Roy Keyes <keyse@ufl.edu> and Christopher P. Barnes
+<senrabc@gmail.com>.  Many thanks to David Nelson, MD, Director of UF's
+Clinical Translational Science Institute and Principal Investigator on the HCV
+Target project for his support of this work.
 
 ## Contributions
 
